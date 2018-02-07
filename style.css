@@ -1,0 +1,415 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    font-family: 'Whitney', sans-serif;
+    font-weight: 300;
+    background-color: #ffffff;
+}
+
+img {
+    max-width: 100%;
+}
+
+.centered {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-red {
+    color: #ff0000;
+}
+
+.button-partners, .button-partners:active, .button-partners:focus {
+    background-color: #50485b;
+    color: #ffffff;
+    padding: 18px 25px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 0;
+    position: relative;
+    display: inline-block;
+    border-bottom: 5px solid #342f3c;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.button-partners:hover {
+    color: #ffffff;
+    text-decoration: none;
+    margin-top: 4px;
+    transition: 0.3s;
+    border-bottom: 1px solid #342f3c;
+}
+
+.button-partners .fa {
+    padding-right: 13px;
+    font-size: 1.5em;
+}
+
+/*--------------------------------Block title page------------------------------------------------*/
+
+.title-block-bg {
+    background: #572560 url('./img/hb-partner-back.jpg') top center;
+}
+
+.title-block-bg h1 {
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+@media (min-width: 992px) {
+    .title-block-bg h1 {
+        padding-top: 20px;
+        padding-bottom: 72px;
+        font-size: 39px;
+    }
+}
+
+@media (max-width: 991px) {
+    .title-block-bg h1 {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+}
+
+/*--------------------------------Block info academy------------------------------------------------*/
+
+.partnership-block-1 .title-block-1 {
+    text-align: center;
+    font-size: 37px;
+    font-weight: 400;
+    padding-bottom: 26px;
+}
+
+.partnership-block-1 .text-block-1 {
+    font-size: 19px;
+    margin-bottom: 0;
+    line-height: 1.3;
+}
+
+.partnership-block-1 .centered {
+    margin-top: 29px;
+}
+
+.partnership-block-1 .big-img-block-1 {
+    margin-top: 20px;
+}
+
+@media (min-width: 992px) {
+    .partnership-block-1 .title-block-1 {
+        padding-top: 37px;
+    }
+
+    .partnership-block-1 .text-block-1 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 991px) {
+    .partnership-block-1 .text-block-1 {
+        margin-bottom: 16px;
+    }
+
+    .partnership-block-1 .big-img-block-1 {
+        margin-top: 50px;
+    }
+}
+
+/*--------------------------------Block advantages partnership academy------------------------------------------------*/
+
+.partnership-block-2 {
+    background-color: #f4f4f4;
+    margin-top: -37px;
+    padding-top: 10px;
+}
+
+.partnership-block-2 h2 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    padding-top: 37px;
+    padding-bottom: 13px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.partnership-block-2 .text-block-2 {
+    font-size: 16px;
+}
+
+.partnership-block-2 .text-block-2-first-child {
+    padding-top: 22px;
+}
+
+.partnership-block-2 .strong-text-block-2 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.partnership-block-2 .wrapper-pictogram {
+    text-align: center;
+}
+
+.partnership-block-2 .advantages-1, .partnership-block-2 .advantages-2 {
+    display: inline-block;
+    margin-top: 29px;
+}
+
+.partnership-block-2 .left-block-advantages {
+    text-align: right;
+}
+
+.partnership-block-2 .title-advantages {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.2em;
+}
+
+.partnership-block-2 .advantages-1 .title-advantages {
+    color: #1abc9c;
+}
+
+.partnership-block-2 .advantages-2 .title-advantages {
+    color: #3498db;
+}
+
+.partnership-block-2 .description-advantages {
+    font-size: 16px;
+    display: inline-block;
+    line-height: 1.3em;
+}
+
+.partnership-block-2 .centered {
+    margin-top: 15px;
+    margin-bottom: 29px;
+}
+
+@media (min-width: 992px) {
+    .partnership-block-2 .advantages-2 {
+        margin-top: 56px;
+    }
+
+    .partnership-block-2 .description-advantages {
+        margin-top: 24px;
+    }
+
+    .partnership-block-2 .centered {
+        margin-top: 58px;
+    }
+}
+
+@media (max-width: 991px) {
+    .partnership-block-2 .left-block-advantages {
+        text-align: left;
+    }
+}
+
+/*--------------------------------Block earnings academy------------------------------------------------*/
+
+.partnership-block-3 h2 {
+    text-align: center;
+    font-size: 38px;
+    font-weight: 300;
+    padding-top: 17px;
+    margin-bottom: 5px;
+}
+
+.partnership-block-3 .subtitle-process-section {
+    text-align: center;
+    font-size: 19px;
+}
+
+.partnership-block-3 .wrapper-point-block-3 {
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.partnership-block-3 .wrapper-point-block-3 .point-block-3 {
+    text-align: center;
+}
+
+.partnership-block-3 .wrapper-point-block-3 .point-block-3 h4 {
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.partnership-block-3 .wrapper-point-block-3 .point-block-3 ul {
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 28px;
+    font-style: italic;
+}
+
+.partnership-block-3 .wrapper-point-block-3 .point-block-3 ul li {
+    padding-left: 0;
+    max-width: 90%;
+    line-height: 1.4em;
+}
+
+@media (min-width: 992px) {
+    .partnership-block-3 .wrapper-point-block-3 .point-block-3 h4 {
+        min-height: 60px;
+    }
+
+    .partnership-block-3 .wrapper-point-block-3 .point-block-3 ul {
+        min-height: 217px;
+    }
+}
+
+@media (min-width: 768px) {
+    .partnership-block-3 .wrapper-point-block-3 .point-block-3 {
+        min-height: 409px;
+    }
+}
+
+@media (max-width: 991px) {
+    .partnership-block-3 {
+        padding-bottom: 40px;
+    }
+
+    .partnership-block-3 h2 {
+        margin-bottom: 40px;
+    }
+
+    .partnership-block-3 .wrapper-point-block-3 .point-block-3 {
+        margin-bottom: 25px;
+    }
+}
+
+/*--------------------------------Block additional features------------------------------------------------*/
+
+.partnership-block-4 {
+    background-color: #f4f4f4;
+    padding-top: 12px;
+    padding-bottom: 27px;
+}
+
+.partnership-block-4 h2 {
+    font-size: 32px;
+    font-weight: 300;
+    border-bottom: 1px solid #ebebeb;
+    padding-bottom: 17px;
+    margin-bottom: 32px;
+}
+
+.partnership-block-4 .text-block-4 {
+    font-size: 18px;
+}
+
+@media (max-width: 991px) {
+    .partnership-block-4 h2 {
+        text-align: center;
+    }
+}
+
+/*--------------------------------Block contacts support------------------------------------------------*/
+
+.partnership-block-5 {
+    padding-top: 47px;
+    padding-bottom: 47px;
+}
+
+.partnership-block-5 .support-img {
+    text-align: center;
+    padding-top: 19px;
+}
+
+.partnership-block-5 .support-img img {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.partnership-block-5 .name-manager {
+    font-size: 31px;
+    font-weight: 500;
+    line-height: 1em;
+    margin-bottom: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.partnership-block-5 .position-manager {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.partnership-block-5 .description-manager {
+    background-color: #f4f4f4;
+    margin-top: 18px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 20px;
+}
+
+.partnership-block-5 .main-button-blue {
+    background-color: #12a5f4;
+    color: #ffffff;
+    padding: 14px 20px;
+    display: inline-block;
+    -webkit-border-radius: 2em;
+    -moz-border-radius: 2em;
+    border-radius: 2em;
+    text-decoration: none;
+    font-size: 12pt;
+    margin-top: 5px;
+    margin-bottom: 6px;
+}
+
+.partnership-block-5 .main-button-blue:hover, .partnership-block-5 .main-button-blue:focus {
+    color: #fff;
+    text-decoration: none;
+    background-color: #1094dc;
+}
+
+.partnership-block-5 .main-button-red {
+    background-color: #ed0000;
+    color: #ffffff;
+    padding: 14px 20px;
+    display: inline-block;
+    -webkit-border-radius: 2em;
+    -moz-border-radius: 2em;
+    border-radius: 2em;
+    text-decoration: none;
+    font-size: 12pt;
+    margin-bottom: 6px;
+    margin-top: 5px;
+}
+
+.partnership-block-5 .main-button-red:hover, .partnership-block-5 .main-button-red:focus {
+    color: #fff;
+    text-decoration: none;
+    background-color: #d50000;
+}
+
+.partnership-block-6 {
+    background-color: #f4f4f4;
+    padding-top: 34px;
+    padding-bottom: 27px;
+}
+
+.partnership-block-6 .text-block-6 {
+    font-size: 24px;
+    line-height: 1.3em;
+}
+
+.partnership-block-6 .centered .button-partners {
+    padding: 14px 16px;
+    max-width: 330px;
+}
+
+.partnership-block-6 .centered .button-partners .fa {
+    font-size: 1em;
+}
