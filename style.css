@@ -393,6 +393,19 @@ img {
     text-decoration: none;
     background-color: #d50000;
 }
+@media(max-width: 767px){
+    .partnership-block-5 .name-manager, .partnership-block-5 .position-manager{
+        text-align: center;
+    }
+}
+@media(min-width: 1200px){
+    .partnership-block-5 .centered{
+        margin-top: 15px;
+    }
+}
+
+
+
 
 .partnership-block-6 {
     background-color: #f4f4f4;
